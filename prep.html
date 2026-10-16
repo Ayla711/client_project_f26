@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Preparing and Starting the Experience</title>
 </head>
 <body>
   
-    <header>
-
-  <a href = "#main">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+  <header>
+  <div class="skip"><a href = "#main">Skip to Main Content</a></div>
+        <div class="site-branding">
+        <img class="logo" 
+             src="images/UMSI_signature_vertical_informal_solidblue.jpg" 
+             alt="UMSI Logo"
+        >
+        <div class="brand-text">
+        <p class="site-name">Engaged Learning Office</p>
+        </div>
+       </div>
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "prep.html">Preparing for Your Experience</a></li>
+                <li><a href = "prep.html" aria-current="page">Preparing for Your Experience</a></li>
                 <li><a href="during.html">During Your Experience</a></li>
                 <li><a href="intern.html">Internship Resources</a></li>
             </ul>
@@ -23,23 +32,21 @@
   </header>
 <main id="main">
   
-<section>
+<section class="intro">
   <h2>Launch Your Engaged Learning Journey</h2>
   <p>Transform your academic knowledge into real-world impact. Use this guide to understand your project context, evaluate team readiness, establish expectations, and begin a productive partnership.</p>
 </section>
 
-<section>
+<section class="content">
   <h2>Why the Work Starts Before the Project</h2>
   <p>Engaged learning at UMSI is fundamentally different from traditional classroom assignments. You are stepping out of controlled environments and into complex, unscripted ecosystems where technical solutions intersect with human lives, organizational cultures, and real community needs.</p>
   <p>The initial phase of a project is rarely about jumping straight into execution—it is about building the foundation for ethical, sustainable engagement. Taking time to reflect on your own positionality, audit your team’s collective skills, and listen deeply to your partner’s goals prevents project failure down the line. When you ground your project in mutual respect, clear boundaries, and honest communication from Day 1, you transform a simple class deliverable into a reciprocal partnership that creates authentic value for everyone involved.</p>
-
-
 </section>
 
-<section>
+<section class="content">
   <h2>Phase 1: Preparing for the Experience</h2>
   <p>Before creating a solution, take time to understand the context, evaluate your team's readiness, and identify what you still need to learn.</p>
-  <article>
+  <article class="stage-card">
     <h3>Approach the Work as a Collaborative Learner</h3>
     <p>Before writing code, sketching wireframes, or analyzing data, consider how your identity and previous experiences influence the way you understand the project.</p>
     <p>Your role is not to enter an organization or community as an outside expert who will fix a problem. Your role is to listen, ask questions, contribute your developing expertise, and work alongside people who understand their organization and community.</p>
@@ -47,7 +54,7 @@
 
   <article>
     <h3>Preparation Goals</h3>
-    <ul>
+    <ul class="indent">
       <li><strong>Develop social and community awareness:</strong> Examine your identity, positionality, assumptions, and privileges. Learn about the community's history and consider how power may affect participation and decision-making.
       </li>
       <li><strong>Understand expectations:</strong> Review program requirements, project commitments,leadership responsibilities, deadlines, and expected outcomes before beginning the work.</li>
@@ -57,9 +64,9 @@
     </ul>
   </article>
 
-  <article>
+  <article> 
     <h3>Questions to Consider</h3>
-    <ul>
+    <ul class="indent">
       <li>What do I hope to learn from this experience?</li>
       <li>Who will be affected by the project and its outcomes?</li>
       <li>What assumptions am I making about the partner, community, or project?</li>
@@ -70,9 +77,9 @@
     </ul>
   </article>
 
-  <article>
+  <article> 
     <h3>Recommended Preparation Process</h3>
-    <ol>
+    <ol class="indent">
       <li><strong>Reflect on your position:</strong> Identify the experiences, identities, assumptions, and areas of privilege that may shape your approach.</li>
       <li><strong>Learn about the context:</strong> Research the organization, community, project history, affected stakeholders, and broader social conditions.</li>
       <li><strong>Set learning goals:</strong> Record the technical, professional, interpersonal, and ethical skills you want to develop.</li>
@@ -81,10 +88,9 @@
       </li>
     </ol>
   </article>
-
   <article>
     <h3>Featured Preparation Resources</h3>
-    <ul>
+    <ul class="indent">
       <li><a href="https://sites.lsa.umich.edu/equitable-teaching/social-identity-snapshot">Social Identity Snapshot</a>: Diagnostic tool to reflect on self-awareness and positionality before entering community contexts.</li>
       <li><a href="https://docs.google.com/document/d/1Qt9YeStVwDHjwJhOLAz42JSNQR2lFMurdUtxtdrGkuc/edit?tab=t.0#heading=h.ch0bvccjkrzn">"Check Yourself" Community Engagement Checklist</a>: Quick audit for personal assumptions and ethical readiness.</li>
       <li><a href="https://drive.google.com/file/d/1zc1RNlrDxV51-muOERdDTnINQcquJpOA/view?usp=sharing">IAP2 Spectrum of Public Participation</a>: Framework for understanding levels of community involvement and decision-making power.</li>
@@ -95,10 +101,11 @@
     </ul>
   </article>
 </section>
-<section>
+
+<section class="content">
   <h2>Phase 2: Starting the Experience</h2>
   <p>As you begin working with your partner, establish clear communication, plan your first meeting, and agree on how you will work together.</p>
-  <article>
+  <article class="stage-card">
     <h3>Build Trust and Establish Shared Commitments</h3>
     <p>Use your early conversations to turn project ideas into shared commitments. Work with your team and partner to plan meeting agendas, clarify the project scope, and agree on responsibilities.</p>
     <p>Take time to listen, ask questions, and discuss anything that is still unclear. Clear expectations help build trust with your partner and create a team environment where everyone can share ideas and raise concerns.</p>
@@ -106,7 +113,7 @@
 
   <article>
     <h3>Starting Goals</h3>
-    <ul>
+    <ul class="indent">
       <li><strong>Establish partner communication:</strong> Introduce your team, explain why you are reaching out, and agree on how you will stay in touch.</li>
       <li><strong>Plan your first meeting:</strong> Prepare an agenda with your partner to discuss goals, clarify roles, and define the project's scope.</li>
       <li><strong>Document shared agreements:</strong> Record team responsibilities, expected deliverables, and project commitments. Make sure your team and partner understand and agree on these expectations.</li>
@@ -115,7 +122,7 @@
 
   <article>
     <h3>Featured Starting Resources</h3>
-    <ul>
+    <ul class="indent">
       <li><a href="https://docs.google.com/document/d/1fWFXwoW5fKX_Tctn97Gio5XZDwILNlqIOyKKE8Yk5J0/edit?usp=drive_link">Initial Client Email Examples:</a> Email templates for first contact with clients and partners.</li>
       <li><a href="https://docs.google.com/document/d/1ItXxYauAcPoaGMUZWuJsX-OLFfGmeBOWT7JNhoZxGyU/edit?usp=drive_link">Initial Client Meeting Sample Agenda:</a> Step-by-step structure for running a professional kickoff call.</li>
       <li><a href="https://ginsberg.umich.edu/article/campus-community-partnerships-toolkit">Ginsberg Center Student-Client Partnership Toolkit:</a> Principles for building reciprocal, respectful community relationships.</li>

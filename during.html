@@ -3,51 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>During the Experience</title>
 </head>
 <body>
   
-    <header>
-
-  <a href = "#main">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+  <header>
+    <div class="skip"><a href = "#main">Skip to Main Content</a></div>
+         <div class="site-branding">
+        <img class="logo" 
+             src="images/UMSI_signature_vertical_informal_solidblue.jpg" 
+             alt="UMSI Logo"
+        >
+        <div class="brand-text">
+        <p class="site-name">Engaged Learning Office</p>
+        </div>
+        </div>
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "prep.html">Preparing for Your Experience</a></li>
-                <li><a href="during.html">During Your Experience</a></li>
+                <li><a href="during.html" aria-current="page">During Your Experience</a></li>
                 <li><a href="intern.html">Internship Resources</a></li>
             </ul>
         </nav>
     <h1>During the Experience</h1>
   </header>
 <main id="main">
-<section>
+<section class="intro">
   <h2>Navigating Your Active Project</h2>
   <p>As your project moves forward, use this guide to conduct research, track progress, and respond to feedback from your team and partner.</p>
 </section>
 
-<section>
+<section class="content">
   <h2>Learning Through Project Challenges</h2>
   <p>As you work on your project, you may find that requirements change, team responsibilities shift, or your partner faces unexpected constraints. Your research may also reveal needs you had not considered. Take time to understand these changes and discuss what they mean for your work.</p>
   <p>Work with your team and partner to review feedback, revisit the project's scope, and decide what needs to change. Pay attention to how your decisions affect the people involved. These conversations help you practice problem-solving, adapt your approach, and keep the project focused on shared goals.</p>
 </section>
 
-<section>
+<section class="content">
   <h2>Phase 3: Managing and Carrying Out Your Project</h2>
   <p>As you carry out the work, gather insights from your research, keep track of tasks, and communicate regularly with your partner.</p>
   <article>
     <h3>Project Goals</h3>
     <img src="images/UMSI_DesignJam_MixelStudio_11052025_04.jpg" alt="A group of students discussing a project together.">
-    <ul>
+    <ul class="indent">
       <li><strong>Learn through fieldwork:</strong> Use human-centered research methods to understand people and their context. Review what you observe and consider how it can guide your project.</li>
       <li><strong>Keep your partner informed:</strong> Share regular updates on your progress, challenges, and next steps so your partner understands how the work is developing.</li>
       <li><strong>Use feedback to guide your work:</strong> Ask your team and partner for feedback, review it together, and decide how to apply it as the project continues.</li>
     </ul>
 </article>
 
-  <article>
-    <h3>Featured Resources &amp; Handouts</h3>
+  <article class="stage-card">
+    <h3 id="resources-heading">Featured Resources &amp; Handouts</h3>
+    
+    <div class="table-scroll"
+        tabindex="0"
+        role="region"
+        aria-labelledby="resources-heading">
+  
     <table>
       <thead>
         <tr>
@@ -94,6 +109,7 @@
         </tr>
       </tbody>
     </table>
+    </div>
   </article>
 </section>
 <!-- Content taken & modified from ChatGPT with the prompt, "Read the 'During the Experience' section of 'Copy of SI 539 Client Project - ELO Content':
