@@ -9,6 +9,7 @@
 
 </head>
 <body>
+    <div class="progress-bar" id="progress-bar" aria-hidden="true"></div>
     <header>
     <div class="skip"><a href = "#main">Skip to Main Content</a></div>
       <div class="site-branding">
@@ -33,7 +34,7 @@
     </header>
     
     <main id="main">
-    <section class="intro">
+    <section class="intro intro-media">
       <h2>Build Skills. Work with Partners. Have an Impact.</h2>
       <p>
        The UMSI Engaged Learning Office connects students with opportunities to apply classroom knowledge to real challenges. Use this site to prepare for your experience, manage your work, and reflect on what you learned.
@@ -49,7 +50,7 @@
          <!-- Note: this iframe might cause an Axe ARIA error - that's not on you that's on YouTube! -->
     </section>
 
-<section class="content">
+<section class="content media-split">
     <h2>Why Use This Resource?</h2>
 
     <p>Real-world projects rarely follow a perfect plan. This site helps you find the right guidance when you need it, so you can spend less time searching for materials and more time learning, collaborating, and moving your project forward.
@@ -59,11 +60,11 @@
         <li><strong>Follow a clear process:</strong> Move from preparation and project launch through active work, reflection, and responsible closeout.</li>
         <li><strong>Find practical support:</strong> Access relevant templates, checklists, examples, and how-to guidance for common project needs.</li>
         <li><strong>Build professional skills:</strong> Strengthen your communication, teamwork, project management, and ethical decision-making.</li>
-        <li><strong>Turn experience into evidence:</strong> Identify what you learned and communicate your impact in resumes,portfolios, and interviews.</li>
+        <li><strong>Turn experience into evidence:</strong> Identify what you learned and communicate your impact in resumes, portfolios, and interviews.</li>
     </ul>
 </section>
 
- <section class="content">
+ <section class="content trio">
     <h2>Guidance for Every Stage</h2>
     <p>Engaged learning projects can change as new needs, constraints, and insights emerge. Find guidance for the stage of work you are navigating <strong>now.</strong></p>
     <article class="stage-card">
@@ -78,14 +79,14 @@
       <a class="card-link" href="during.html">Find active project resources</a>
     </article>
 
-    <article class="stage-card">
+    <article class="stage-card card-wide">
       <h3>Wrap Up and Move Forward</h3>
       <p>Complete a responsible handoff, evaluate your impact, reflect on your growth, and translate your work into resume, portfolio, and interview content.</p>
       <a class="card-link" href="intern.html">Plan your next steps</a>
     </article>
   </section>
 
-   <section class="content">
+   <section class="content programs">
     <h2>Featured Programs</h2>
     <p>Explore opportunities to collaborate with organizations, communities, student teams, and partners in Michigan and beyond.</p>
     <article>
@@ -129,9 +130,7 @@
     <div>
        <a href="https://umsi.info/elo-newsletter"> Sign up for the ELO newsletter</a>
     </div>
-    <p>Questions? Email
-        <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu </a>.
-    </p>
+    <p>Questions? Email <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>.</p>
   </aside>
 
 
@@ -143,7 +142,8 @@
       <address>
         <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+      <p>&copy; <span id="year">2026</span> Regents of the University of Michigan</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
